@@ -1,0 +1,19 @@
+/* =============================================
+   APP — Layout Structure
+   ============================================= */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: var(--navbar-height);
+}
+
+/* Page-level fade-in */
+.page {
+  animation: fadeInUp 0.5s ease both;
+}
